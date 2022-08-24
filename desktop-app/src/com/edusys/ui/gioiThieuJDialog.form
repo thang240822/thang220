@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="alwaysOnTop" type="boolean" value="true"/>
+    <Property name="undecorated" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,118,0,0,2,0"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+            <LineBorder>
+              <Color PropertyName="color" blue="cc" green="cc" red="cc" type="rgb"/>
+            </LineBorder>
+          </Border>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icon/logo-small.png"/>
+            </Property>
+            <Property name="toolTipText" type="java.lang.String" value="Click &#x111;&#x1ec3; &#x111;&#xf3;ng"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jLabel1MouseClicked"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="First"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JTextPane" name="jTextPane1">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="Polypro l&#xe0; d&#x1ef1; &#xe1;n m&#x1eab;u. M&#x1ee5;c ti&#xea;u ch&#xed;nh l&#xe0; hu&#x1ea5;n luy&#x1ec7;n sinh vi&#xea;n qui tr&#xec;nh th&#x1ef1;c hi&#x1ec7;n d&#x1ef1; &#xe1;n.&#xa;&#xa;M&#x1ee5;c ti&#xea;u c&#x1ee7;a d&#x1ef1; &#xe1;n n&#xe0;y l&#xe0; &#x111;&#x1ec3; r&#xe8;n luy&#x1ec7;n k&#x1ef9; n&#x103;ng IO (CDIO) t&#x1ee9;c kh&#xf4;ng y&#xea;u c&#x1ea7;u sinh vi&#xea;n ph&#x1ea3;i thu th&#x1ead;p ph&#xe2;n t&#xed;ch m&#xe0; ch&#x1ec9; th&#x1ef1;c hi&#x1ec7;n v&#xe0; v&#x1ead;n h&#xe0;nh m&#x1ed9;t ph&#x1ea7;n m&#x1ec1;m chu&#x1ea9;n b&#x1ecb; cho c&#xe1;c d&#x1ef1; &#xe1;n sau n&#xe0;y. C&#xe1;c k&#x1ef9; n&#x103;ng CD (trong CDIO) s&#x1ebd; &#x111;&#x1b0;&#x1ee3;c hu&#x1ea5;n luy&#x1ec7;n &#x1edf; d&#x1ef1; &#xe1;n 1 v&#xe0; d&#x1ef1; &#xe1;n 2.&#xa;&#xa;Y&#xea;u c&#x1ea7;u v&#x1ec1; m&#xf4;i tr&#x1b0;&#x1edd;ng:&#xa;1. H&#x1ec7; &#x111;i&#x1ec1;u h&#xe0;nh b&#x1ea5;t k&#x1ef3;&#xa;2. JDK 1.8 tr&#x1edf; l&#xea;n&#xa;3. SQL Server 2008 tr&#x1edf; l&#xea;n"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTextPane1MouseClicked"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Center"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
